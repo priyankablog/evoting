@@ -1,0 +1,164 @@
+.my_label{
+    font-size: 15px;
+}
+.err_mesg p{
+    display: inline;
+}
+.error_msg + p {
+    margin-bottom: -5px; 
+    color: red !important;
+    font-size: 13px !important;
+    margin-top: -19px;
+}
+
+.error_border_msg{
+
+    border:1px solid red;
+    border-right:none;
+}
+.error_border_pass{
+
+    border:1px solid red !important;
+    border-left:none !important;
+}
+.error_border{
+
+    border:1px solid red !important;
+}
+.err_msg +p{
+    /*margin-bottom: -10px;*/ 
+    color: red !important;
+    padding-left: 14px;
+    font-size: 13px !important;
+    margin-top: 30px;
+}
+.icon_top{
+    padding-top:3px;
+}
+
+element.style {
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from body.pace-done
+
+body {
+    background: #d9e0e7;
+    font-size: 12px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #707478;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::scrollbar element
+
+::-webkit-scrollbar {
+    z-index: 30;
+    width: 6px;
+}
+Pseudo ::scrollbar-thumb element
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+}
+Pseudo ::scrollbar-track element
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #c1c1c1;
+}
+.my-dash{
+    background: #fff; 
+    color: #000;
+    position: relative;
+    padding: 10px 20px;
+    
+}
+#icon i{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border:1px solid #999;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #333;
+}
+
+.nova-tab ul li{ 
+    cursor: pointer;
+    border:1px solid #dfdfdf;
+    background: #f9f9f9;
+    padding: 5px 10px !important;
+}
+.nova-tab ul .active{
+    color: #fff !important;
+    background: #00b7f1;
+}
+table{
+    font-size: 13.5px;
+}
+.err_message{
+    color:red;
+}

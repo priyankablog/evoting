@@ -1,0 +1,241 @@
+.mycss{
+    text-indent: 100px;
+    text-align: justify;
+
+}
+#mycss1{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+.circle ul li {
+    list-style: disc;
+}
+.mycss2{
+    background-color: #f9f9f9;
+}
+#css1{
+    margin-top: 5%;
+}
+#icon i{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border:1px solid #999;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #333;
+}
+.my-dash{
+    background: #fff; 
+    color: #000;
+    position: relative;
+    padding: 20px 20px;
+    
+}
+.sidepanel{
+    background: #f8f8f8;
+    padding: 10px;
+}
+.sidepanel ul li{
+    transition: 0.4s;
+    padding: 10px;
+    border-bottom: 1px solid #dfdfdf
+}
+
+.sidepanel ul li:hover{
+    color: #2287CE;
+    background: #fff
+}
+.sidepanel ul li a{
+    transition: 0.4s;
+
+}
+.sidepanel ul li i{
+    padding-right: 10px;
+
+}
+.sidepanel ul li:hover a{
+    color: #2287CE;
+    padding-left: 5px;
+}
+.head{ 
+    font-weight: normal !important;
+    font-family: inherit;
+    font-size: 19px !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;   
+}
+
+.rightpanel{
+    padding-left: 25px;
+}
+.cir i{
+    border-radius: 100px;
+    background: white;
+    border:1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.mybox{
+    transition: 0.6s;
+    margin-bottom: 20px;
+}
+
+.mybox:hover{
+    background: #fafafab5;
+}
+.mybox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    transition: 0.5s !important;
+}
+.mybox:hover img{
+    width: 140px !important;
+    height: 140px !important;
+
+}
+.a{
+    background: red;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.a:hover{
+    
+    animation-name: fun;
+    
+}
+@keyframes fun{
+    10%{
+        margin-top:5%;
+        background:green;
+    }
+    20%{
+        margin-top:10%;
+        background:yellow;
+    }
+
+}
+
+.box {
+    position: relative;
+}
+
+.box .inner-box {
+    position: relative;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+
+.box:before {
+    position: absolute;
+    content: '';
+    background: #f7f7f7;
+    left: 15px;
+    bottom: 42px;
+    right: 15px;
+    top: 100%;
+    transition: .5s ease;
+    
+}
+
+.box:hover:before {
+    top: 31px;
+    transition: .5s ease;
+}
+
+.box .icon-box {
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    background: #00b7f1;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.box h4 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+.point-img img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.blue {
+    background: #3d486f;
+    color: #fff;
+}
+.point {
+    text-align: center;
+}
+.white {
+    background: white;
+    color: #3d486f;
+}
+.font {
+    color: #3d486f;
+}
+.point-img {
+    width: 66px;
+    height: 66px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+}
+.heading{
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+     color: #3d486f;
+    font-weight: 600;
+}
+.point-img img {
+    max-width: 100%;
+}
+.home-band h3{
+    font-size: 1.1em;
+    margin: 15px 0;
+    font-weight: 600;
+    color:#3d486f;
+}
+.nova-tab ul li{ 
+    cursor: pointer;
+    border:1px solid #dfdfdf;
+    background: #f9f9f9;
+    padding: 5px 10px !important;
+}
+.nova-tab ul .active{
+    color: #fff !important;
+    background: #00b7f1;
+}
+table{
+    font-size: 13.5px;
+}
